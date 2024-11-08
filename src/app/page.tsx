@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 export default function HomePage() {
   return (
@@ -25,8 +24,6 @@ export default function HomePage() {
         <h1 className="text-4xl md:text-8xl font-extrabold leading-tight mt-2">EDUCATION FOR ALL</h1>
       </div>
 
-   
-        </div>
-  
+    </div>
   );
 }

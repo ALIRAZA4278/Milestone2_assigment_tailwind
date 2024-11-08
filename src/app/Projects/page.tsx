@@ -1,11 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 
-
 export default function ProjectPage() {
     return (
         <div className="font-serif">
-
             <div
                 className="relative w-full h-[40vh] bg-cover bg-center"
                 style={{ backgroundImage: 'url("/Projects.jpg")' }}
@@ -20,8 +18,9 @@ export default function ProjectPage() {
                     </div>
 
                     <p className="text-sm sm:text-xl text-[#2859b6] leading-relaxed sm:px-8 md:px-16 text-center">
-                        I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+                        I&apos;m a paragraph. Click here to add your own text and edit me. It&apos;s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I&apos;m a great place for you to tell a story and let your users know a little more about you.
                     </p>
+
                     <div className="px-4 py-10">
                         <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10">
 
@@ -134,13 +133,8 @@ export default function ProjectPage() {
                             </li>
                         </ul>
                     </div>
-
-
-
-
                 </div>
             </div>
-
         </div>
     );
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 
-
 export default function Teampage() {
     return (
         <div className="font-serif">
@@ -22,7 +21,7 @@ export default function Teampage() {
                     </div>
 
                     <p className="text-sm sm:text-xl text-[#2859b6] leading-relaxed sm:px-8 md:px-16 text-center">
-                        I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+                        I&apos;m a paragraph. Click here to add your own text and edit me. It&apos;s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I&apos;m a great place for you to tell a story and let your users know a little more about you.
                     </p>
 
                     <div className="px-4 py-10">
@@ -41,8 +40,9 @@ export default function Teampage() {
                                     <h2 className="text-xl font-bold text-[#2859b6]">James Hogan</h2>
                                     <p className="mt-2 text-md text-gray-700">
                                         James Hogan
-                                        This item is connected to a text field in your content collection. Double click to add your own content.</p>
-                                    <button className="mt-4 px-4 py-2 bg text-black font-semibold rounded-lg  ">
+                                        This item is connected to a text field in your content collection. Double click to add your own content.
+                                    </p>
+                                    <button className="mt-4 px-4 py-2 bg text-black font-semibold rounded-lg">
                                         af912923@gmail.com
                                     </button>
                                 </div>
@@ -61,8 +61,9 @@ export default function Teampage() {
                                     <h2 className="text-xl font-bold text-[#2859b6]">Nitin Chet</h2>
                                     <p className="mt-2 text-md text-gray-700">
                                         James Hogan
-                                        This item is connected to a text field in your content collection. Double click to add your own content.</p>
-                                    <button className="mt-4 px-4 py-2 bg text-black font-semibold rounded-lg  ">
+                                        This item is connected to a text field in your content collection. Double click to add your own content.
+                                    </p>
+                                    <button className="mt-4 px-4 py-2 bg text-black font-semibold rounded-lg">
                                         af912923@gmail.com
                                     </button>
                                 </div>
@@ -81,8 +82,9 @@ export default function Teampage() {
                                     <h2 className="text-xl font-bold text-[#2859b6]">Jeanette Dhay</h2>
                                     <p className="mt-2 text-md text-gray-700">
                                         James Hogan
-                                        This item is connected to a text field in your content collection. Double click to add your own content.</p>
-                                    <button className="mt-4 px-4 py-2 bg text-black font-semibold rounded-lg  ">
+                                        This item is connected to a text field in your content collection. Double click to add your own content.
+                                    </p>
+                                    <button className="mt-4 px-4 py-2 bg text-black font-semibold rounded-lg">
                                         af912923@gmail.com
                                     </button>
                                 </div>
@@ -99,12 +101,13 @@ export default function Teampage() {
                                 />
                                 <div className="p-6 flex flex-col items-center text-center">
                                     <h2 className="text-xl font-bold text-[#2859b6]">
-                                    Katie Franklin
+                                        Katie Franklin
                                     </h2>
                                     <p className="mt-2 text-md text-gray-700">
                                         James Hogan
-                                        This item is connected to a text field in your content collection. Double click to add your own content.</p>
-                                    <button className="mt-4 px-4 py-2 bg text-black font-semibold rounded-lg  ">
+                                        This item is connected to a text field in your content collection. Double click to add your own content.
+                                    </p>
+                                    <button className="mt-4 px-4 py-2 bg text-black font-semibold rounded-lg">
                                         af912923@gmail.com
                                     </button>
                                 </div>
@@ -112,14 +115,8 @@ export default function Teampage() {
 
                         </ul>
                     </div>
-
-
-
-
-
                 </div>
             </div>
-
         </div>
     );
 }

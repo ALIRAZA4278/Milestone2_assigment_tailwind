@@ -121,10 +121,10 @@ export default function NewsPage() {
                                                 Oct 1, 2023
                                             </h6>
                                             <h2 className="text-2xl font-bold text-[#2859b6] mb-3">
-                                                Protecting Our Children's Privacy
+                                                Protecting Our Children&apos;s Privacy
                                             </h2>
                                             <p className="text-lg text-gray-700">
-                                                Learn how we can ensure children’s safety online in a rapidly changing digital world.
+                                                Learn how we can ensure children&apos;s safety online in a rapidly changing digital world.
                                             </p>
                                         </div>
                                         <div className="mt-4 text-left">
@@ -172,6 +172,7 @@ export default function NewsPage() {
                                     </div>
                                 </div>
                             </li>
+
                             {/* News Card 5 */}
                             <li className="relative bg-white border border-gray-200 shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
                                 <div className="flex flex-col sm:flex-row">
@@ -194,7 +195,7 @@ export default function NewsPage() {
                                                 Aug 1, 2023
                                             </h6>
                                             <h2 className="text-2xl font-bold text-[#2859b6] mb-3">
-                                            Recent Classrooms Renovations
+                                                Recent Classrooms Renovations
                                             </h2>
                                             <p className="text-lg text-gray-700">
                                                 Take a look at the Spring 2023 curriculum update for high school students.
@@ -208,6 +209,7 @@ export default function NewsPage() {
                                     </div>
                                 </div>
                             </li>
+
                             {/* News Card 6 */}
                             <li className="relative bg-white border border-gray-200 shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
                                 <div className="flex flex-col sm:flex-row">
@@ -230,7 +232,7 @@ export default function NewsPage() {
                                                 Jul 1, 2023
                                             </h6>
                                             <h2 className="text-2xl font-bold text-[#2859b6] mb-3">
-                                            New Auditorium Launched in Luanda
+                                                New Auditorium Launched in Luanda
                                             </h2>
                                             <p className="text-lg text-gray-700">
                                                 Take a look at the Spring 2023 curriculum update for high school students.

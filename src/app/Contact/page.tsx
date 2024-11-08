@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 export default function ContactPage() {
     return (
@@ -15,9 +14,10 @@ export default function ContactPage() {
                 <div className="space-y-8">
                     <div className="text-center">
                         <h1 className="text-3xl sm:text-4xl md:text-5xl text-[#2859b6] font-bold">Contact Us</h1>
-                        <p className="mt-4 text-lg">We'd love to hear from you! Please choose how you'd like to get involved.</p>
+                        <p className="mt-4 text-lg">
+                            We&apos;d love to hear from you! Please choose how you&apos;d like to get involved.
+                        </p>
                     </div>
-
 
                     {/* Volunteer Form */}
                     <div className="px-4 py-10" id="volunteer-form">
@@ -41,7 +41,6 @@ export default function ContactPage() {
                             <textarea
                                 placeholder="Why do you want to volunteer with us?"
                                 className="w-full p-3 border border-gray-300 rounded-md"
-                
                             />
                             <textarea
                                 placeholder="Availability (Days/Times)"
