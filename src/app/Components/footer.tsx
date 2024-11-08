@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+
 export default function Footer() {
   return (
     <div className="w-full bg-gray-100 py-8">
@@ -10,7 +11,7 @@ export default function Footer() {
         <div className="w-full md:w-[70%] bg-[#2859b6] p-4 rounded-lg mb-6 md:mb-0">
           <div className="mb-6">
             <h1 className="text-2xl font-semibold mb-2 text-white">CONTACT US</h1>
-            <p className="text-sm text-zinc-200">I'm a paragraph. Click here to add your own text and edit me.</p>
+            <p className="text-sm text-zinc-200">I&apos;m a paragraph. Click here to add your own text and edit me.</p>
             <p className="text-sm text-zinc-200 mt-2">Registered Charity: 12345-67</p>
             <hr className="my-4" />
             <p className="text-sm text-zinc-200">Af912923@gmail.com</p>
@@ -20,7 +21,7 @@ export default function Footer() {
             <p className="text-sm text-zinc-200 mb-2">500 Terry Francine Street, San Francisco, CA 94158</p>
             <p className="text-sm text-gray-700 mb-2">Phone: 123-456-7890</p>
             <hr className="my-4" />
-            <h6 className="font-semibold text-zinc-200">Terms & Conditions</h6>
+            <h6 className="font-semibold text-zinc-200">Terms &amp; Conditions</h6>
             <p className="text-sm text-zinc-200">Privacy Policy</p>
             <p className="text-sm text-zinc-200">Refund Policy</p>
             <hr className="my-4" />
@@ -116,6 +117,5 @@ export default function Footer() {
         </div>
       </div>
     </div>
-
   )
 }
