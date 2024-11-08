@@ -7,7 +7,6 @@ export default function Footer() {
     <div className="w-full bg-gray-100 py-8">
       <div className="w-[90%] mx-auto flex flex-col md:flex-row justify-between bg-white shadow-md rounded-lg">
 
-        {/* Left Section (Contact Info) */}
         <div className="w-full md:w-[70%] bg-[#2859b6] p-4 rounded-lg mb-6 md:mb-0">
           <div className="mb-6">
             <h1 className="text-2xl font-semibold mb-2 text-white">CONTACT US</h1>
@@ -27,7 +26,6 @@ export default function Footer() {
             <hr className="my-4" />
 
             <div className="flex justify-center space-x-6 mt-6">
-              {/* Twitter Icon */}
               <Link href="https://x.com/AliFaro45370063" target="_blank" rel="noopener noreferrer">
                 <Image
                   src="/Twtiier.svg"
@@ -37,7 +35,6 @@ export default function Footer() {
                 />
               </Link>
 
-              {/* Facebook Icon */}
               <Link href="https://www.facebook.com/ali.farooq.1447342/" target="_blank" rel="noopener noreferrer">
                 <Image
                   src="/facebook.svg"
@@ -47,7 +44,6 @@ export default function Footer() {
                 />
               </Link>
 
-              {/* Instagram Icon */}
               <Link href="https://www.instagram.com/its_zyrox_x/" target="_blank" rel="noopener noreferrer">
                 <Image
                   src="/Instagram.svg"
@@ -57,7 +53,6 @@ export default function Footer() {
                 />
               </Link>
 
-              {/* LinkedIn Icon */}
               <Link href="https://www.linkedin.com/in/ali-raza-4a5762282/" target="_blank" rel="noopener noreferrer">
                 <Image
                   src="/Linkedin.svg"
@@ -101,16 +96,15 @@ export default function Footer() {
       </div>
       <div className="bg-gray-300 text-white py-4 mt-16">
         <div className="text-center flex flex-col items-center">
-          {/* Logo centered */}
-          <Image
-            src="/logo.svg"
+         <Image
+            src="/HOMELOGO.svg"
             alt="Logo"
             width={72}
             height={16}
-            className="" // Margin below the logo for spacing
+            className="" 
           />
 
-          {/* Copyright Text */}
+
           <p className="text-sm text-black">
             &copy; {` ${new Date().getFullYear()}`} Your Company Name. All rights reserved.
           </p>

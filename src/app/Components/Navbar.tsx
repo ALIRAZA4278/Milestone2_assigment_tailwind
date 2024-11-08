@@ -9,7 +9,7 @@ export default function Navbar() {
       <nav className='flex w-[90%] m-auto justify-between items-center p-3 text-[#2859b6] hover: max-lg:flex-col max-lg:items-center max-lg:w-full max-sm:text-xs'>
         {/* Logo Section */}
         <div className='flex items-center gap-4'>
-          <Image src="/logo.svg" alt="Logo" width={72} height={16} />
+          <Image src="/HOMELOGO.svg" alt="Logo" width={72} height={16} />
           <div>
             <h2 className='text-2xl max-sm:text-lg'>ChoosEquality</h2>
             <p className='text-sm max-sm:text-xs'>Education For All</p>
