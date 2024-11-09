@@ -66,12 +66,12 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="w-full md:w-[30%] bg-white p-4 rounded-lg border-2 border-gray-300 shadow-lg">
-          <h2 className="text-xl font-semibold mb-4">BE THE FIRST TO KNOW</h2>
-          <p className="text-sm mb-6">Sign up to our newsletter to stay informed</p>
+        <div className="w-full md:w-[30%] bg-white p-4 rounded-lg border-2 border-gray-300 shadow-lg text-black">
+          <h2 className="text-xl font-semibold mb-4 text-black">BE THE FIRST TO KNOW</h2>
+          <p className="text-sm mb-6 text-black">Sign up to our newsletter to stay informed</p>
 
           <div className="mb-4">
-            <label htmlFor="Email" className="block text-sm font-medium mb-2">Email:</label>
+            <label htmlFor="Email" className="block text-sm font-medium mb-2 text-black">Email:</label>
             <input
               type="email"
               id="Email"
@@ -83,7 +83,7 @@ export default function Footer() {
 
           <div className="flex items-center mb-6">
             <input type="checkbox" id="checkbox" className="mr-2" />
-            <label htmlFor="checkbox" className="text-sm">Yes, subscribe me to your newsletter.</label>
+            <label htmlFor="checkbox" className="text-sm text-black">Yes, subscribe me to your newsletter.</label>
           </div>
 
           <button className="w-full py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
