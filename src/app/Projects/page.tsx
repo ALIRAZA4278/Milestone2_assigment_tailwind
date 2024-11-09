@@ -63,7 +63,7 @@ export default function ProjectPage() {
                             {/* Project Card 3 */}
                             <li className="flex flex-col justify-between items-center bg-white border border-gray-200 shadow-lg rounded-lg overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-300">
                                 <Image
-                                    src="/Project3.jpegnpm "
+                                    src="/Project3.jpeg"
                                     alt="Transportation for Youth"
                                     width={300}
                                     height={200}
