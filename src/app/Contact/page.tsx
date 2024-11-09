@@ -20,9 +20,9 @@ export default function ContactPage() {
                     </div>
 
                     {/* Volunteer Form */}
-                    <div className="px-4 py-10" id="volunteer-form">
-                        <h2 className="text-2xl font-bold mb-4">Volunteer with Us</h2>
-                        <form className="space-y-4">
+                    <div className="px-4 py-10" id="volunteer-form text-black">
+                        <h2 className="text-2xl font-bold mb-4 text-black">Volunteer with Us</h2>
+                        <form className="space-y-4 text-black">
                             <input
                                 type="text"
                                 placeholder="Your Name"
@@ -57,7 +57,7 @@ export default function ContactPage() {
 
                     {/* Partner Form */}
                     <div className="px-4 py-10" id="partner-form">
-                        <h2 className="text-2xl font-bold mb-4">Partner with Us</h2>
+                        <h2 className="text-2xl font-bold mb-4 text-black">Partner with Us</h2>
                         <form className="space-y-4">
                             <input
                                 type="text"
@@ -89,7 +89,7 @@ export default function ContactPage() {
 
                     {/* Contribute Form */}
                     <div className="px-4 py-10" id="contribute-form">
-                        <h2 className="text-2xl font-bold mb-4">Make a Donation</h2>
+                        <h2 className="text-2xl font-bold mb-4 text-black">Make a Donation</h2>
                         <form className="space-y-4">
                             <input
                                 type="text"
