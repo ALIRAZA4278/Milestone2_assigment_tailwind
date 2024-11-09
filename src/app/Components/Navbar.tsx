@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function Navbar() {
   return (
-    <div className="font-sans">
+    <div className="font-serif bg-white">
       <nav className='flex w-[90%] m-auto justify-between items-center p-3 text-[#2859b6] hover: max-lg:flex-col max-lg:items-center max-lg:w-full max-sm:text-xs'>
         {/* Logo Section */}
         <div className='flex items-center gap-4'>
