@@ -17,8 +17,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-sm text-zinc-200 mb-2">500 Terry Francine Street, San Francisco, CA 94158</p>
-            <p className="text-sm text-zinc-200 mb-2">Phone: 123-456-7890</p>
+            <p className="text-sm text-zinc-200 mb-2">506 fine arcade, 5th floor, garden west karachi</p>
+            <p className="text-sm text-zinc-200 mb-2">Phone: +92 321 2865058</p>
             <hr className="my-4" />
             <h6 className="font-semibold text-zinc-200">Terms &amp; Conditions</h6>
             <p className="text-sm text-zinc-200">Privacy Policy</p>

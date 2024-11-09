@@ -7,7 +7,7 @@ export default function AboutPage() {
         <div className="font-serif">
 
             <div
-                className="relative w-full h-[50vh] bg-cover bg-center"
+                className="relative w-full h-[40vh] bg-cover bg-center"
                 style={{ backgroundImage: 'url("/About.jpg")' }}
             >
                 <div className="absolute inset-0 bg-black opacity-40"></div> 
@@ -17,7 +17,7 @@ export default function AboutPage() {
                 <div className="space-y-8">
                     <div className="text-center">
                         <h1 className="text-3xl sm:text-4xl md:text-5xl text-[#2859b6] font-bold">
-                            About ChoosEquality
+                        ABOUT CHOOSEQUALITY
                         </h1>
                     </div>
 
