@@ -17,7 +17,7 @@ export default function Navbar() {
         </div>
 
 
-        <ul className='flex text-lg gap-4 items-center lg:flex-row lg:ml-auto w-full lg:w-auto lg:justify-end lg:gap-6 mt-4 lg:mt-0 max-lg:justify-center max-sm:text-lg'>
+        <ul className='flex text-lg gap-4 items-center lg:flex-row lg:ml-auto w-full lg:w-auto lg:justify-end lg:gap-6 mt-4 lg:mt-0 max-lg:justify-center max-sm:text-xs'>
           <li><Link href="/">Home</Link></li>
           <li><Link href="/About">About</Link></li>
           <li><Link href="/Projects">Projects</Link></li>
